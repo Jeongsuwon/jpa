@@ -6,3 +6,10 @@ server:
    charset: UTF-8
    enabled: true
    force: true
+   
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: c##jsw
+    password: 0000
+    driver-class-name: oracle.jdbc.driver.OracleDriver
